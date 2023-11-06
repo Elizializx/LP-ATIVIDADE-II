@@ -11,12 +11,12 @@ int main(){
 	
 	printf("SEJA BEM-VINDO A NOSSA EQUIPE! \n");
 	sleep(1);
-	printf("Selecione o idioma da sua preferência à baixo. \n");
+	printf("Selecione o idioma da sua preferÃªncia Ã  baixo. \n");
 	sleep(1);
-	printf("1 - Inglês \n");
+	printf("1 - InglÃªs \n");
 	printf("2 - Espanhol \n");
-	printf("3 - Francês \n");
-	printf("Insira o número referente a sua escolha: ");
+	printf("3 - FrancÃªs \n");
+	printf("Insira o nÃºmero referente a sua escolha: ");
 	scanf("%s", &idioma);
 	
 	if(idioma == 1)
@@ -29,7 +29,7 @@ int main(){
 	}
 	else if(idioma == 3)
 	{
-		printf("BIENVENUE DANS NOTRE ÉQUIPE!");
+		printf("BIENVENUE DANS NOTRE Ã‰QUIPE!");
 	}
 	
 	return 0;
