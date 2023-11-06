@@ -10,28 +10,28 @@ int main(){
 	int variedade;
 	int opcoes;
 	
-	printf("BEM-VINDO À E-COMMERCE STORE! \n");
+	printf("BEM-VINDO Ã€ E-COMMERCE STORE! \n");
 	sleep(1);
-	printf("Temos variedades em camisas, calças e sapatos.");
+	printf("Temos variedades em camisas, calÃ§as e sapatos.");
 	sleep(1);
-	printf("Gostaria de ver nossas opções?")
+	printf("Gostaria de ver nossas opÃ§Ãµes?")
 	printf("1 - sim");
-	printf("2 - não");
+	printf("2 - nÃ£o");
 	scanf("%d", &opcoes);
 	
 		switch (opcoes)
 	{
 		case 1 :
-			printf("Ótima escolha :)!");
+			printf("Ã“tima escolha :)!");
 			printf("Camisas: \n");
 			printf("1 - Camisas sociais \n");
 			printf("2 - Camisa masculina \n");
 			printf("3 - Camisa feminina \n");
 			printf("4 - Cropped \n");
 			printf("5 - Regata \n");
-			printf("6 - Camisas clássicas \n");
+			printf("6 - Camisas clÃ¡ssicas \n");
 			printf("\n");
-			printf("Calças: \n");
+			printf("CalÃ§as: \n");
 			printf("1 - Moletom \n");
 			printf("2 - Cargo \n");
 			printf("3 - Social \n");
@@ -44,13 +44,13 @@ int main(){
 			printf("2 - Coturno \n");
 			printf("3 - Social \n");
 			printf("4 - Salto \n");
-			printf("5 - Sandália \n");
-			printf("6 - Tênis \n");
+			printf("5 - SandÃ¡lia \n");
+			printf("6 - TÃªnis \n");
 			printf("\n");	
 		break;
 		
 		case 2 :
-			printf("Obrigado pela preferência!");
+			printf("Obrigado pela preferÃªncia!");
 			return 0;
 		break;
 	
@@ -66,11 +66,11 @@ int main(){
 		break;
 		
 		case 3 :
-			printf("BIENVENUE DANS NOTRE ÉQUIPE!");
+			printf("BIENVENUE DANS NOTRE Ã‰QUIPE!");
 		break;
 		
 		default:
-			printf("Número inválido!");	
+			printf("NÃºmero invÃ¡lido!");	
 	}	
 	
 	
